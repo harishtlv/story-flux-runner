@@ -1,0 +1,22 @@
+{
+  "name": "story-flux-runner",
+  "version": "1.0.0",
+  "description": "FLUX batch image generator for children's story animation pipeline",
+  "type": "module",
+  "main": "flux-runner.js",
+  "scripts": {
+    "start": "node flux-runner.js",
+    "phase1": "node flux-runner.js --phase=1",
+    "phase2": "node flux-runner.js --phase=2",
+    "regen": "node flux-runner.js --regen",
+    "status": "node flux-runner.js --phase=none"
+  },
+  "dependencies": {
+    "@gradio/client": "^1.19.1",
+    "@huggingface/inference": "^4.13.18",
+    "dotenv": "^16.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

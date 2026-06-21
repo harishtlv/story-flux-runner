@@ -1,0 +1,18 @@
+{
+  "name": "story-wan-runner",
+  "version": "1.0.0",
+  "description": "WanVideo I2V clip generator for children's story animation pipeline",
+  "type": "module",
+  "main": "wan-runner.js",
+  "scripts": {
+    "start":    "node wan-runner.js",
+    "dry-run":  "node wan-runner.js --dry-run",
+    "regen":    "node wan-runner.js --regen"
+  },
+  "dependencies": {
+    "@gradio/client": "^1.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

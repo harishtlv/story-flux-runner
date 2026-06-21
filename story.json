@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "The Very Healthy Caterpillar",
+    "art_style": "storybook oil painting, rich warm colors, soft edges, illustrated fairy tale aesthetic"
+  },
+  "characters": [
+    {
+      "id": "c1",
+      "name": "Pip",
+      "flux_description": "A small, curious green caterpillar with bright eyes and a gentle smile.",
+      "reference_image_path": "pipeline\\characters\\c1_reference.png",
+      "_ref_seed": 635582112
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "s01",
+      "narration_text": "One bright morning, a tiny caterpillar named Pip stretched and yawned. Her tummy gave a little rumble. She was hungry and ready for a wonderful day in the garden.",
+      "mood": "Curious and cheerful",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "Storybook oil painting of a tiny green caterpillar waking on a leafy branch in a magical garden. Rich warm colors, soft edges, fairy tale illustration, gentle morning light.",
+      "flux_seed": 635583112,
+      "sequence": 1,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s01\\c1_seed635583112.png",
+            "seed": 635583112
+          },
+          {
+            "path": "pipeline\\scenes\\s01\\c2_seed635583113.png",
+            "seed": 635583113
+          },
+          {
+            "path": "pipeline\\scenes\\s01\\c3_seed635583114.png",
+            "seed": 635583114
+          }
+        ],
+        "video_clip": "pipeline\\clips\\s01\\s01_clip.mp4",
+        "video_clips": []
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635583112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error on c1_seed635583112.png: Timed out after 45min"
+      },
+      "target_clip_duration_sec": 3.4
+    },
+    {
+      "scene_id": "s02",
+      "narration_text": "Pip looked around and discovered a garden full of healthy treats. Crunchy carrots, juicy strawberries, leafy spinach, and sweet peas sparkled in the sunshine.",
+      "mood": "Wonder and excitement",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "Caterpillar exploring a fairy tale vegetable and fruit garden filled with strawberries, peas, carrots, and leafy greens. Storybook oil painting with rich warm colors and soft textures.",
+      "flux_seed": 635584112,
+      "sequence": 2,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s02\\c1_seed635584112.png",
+            "seed": 635584112
+          },
+          {
+            "path": "pipeline\\scenes\\s02\\c2_seed635584113.png",
+            "seed": 635584113
+          },
+          {
+            "path": "pipeline\\scenes\\s02\\c3_seed635584114.png",
+            "seed": 635584114
+          }
+        ],
+        "video_clip": "pipeline\\clips\\s02\\s02_clip.mp4"
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635584112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error: Timed out after 45min"
+      },
+      "target_clip_duration_sec": 3.4
+    },
+    {
+      "scene_id": "s03",
+      "narration_text": "Pip nibbled sweet strawberries and crunchy peas. Each healthy bite gave her energy to wiggle, crawl, and explore.",
+      "mood": "Happy and energized",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "A happy caterpillar nibbling strawberries and peas in a dreamy storybook garden. Oil painting style, warm colors, soft edges, fairy tale charm.",
+      "flux_seed": 635585112,
+      "sequence": 3,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s03\\c1_seed635585112.png",
+            "seed": 635585112
+          },
+          {
+            "path": "pipeline\\scenes\\s03\\c2_seed635585113.png",
+            "seed": 635585113
+          },
+          {
+            "path": "pipeline\\scenes\\s03\\c3_seed635585114.png",
+            "seed": 635585114
+          }
+        ],
+        "video_clip": "pipeline\\clips\\s03\\s03_clip.mp4"
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635585112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error: Timed out after 45min"
+      },
+      "target_clip_duration_sec": 3.4
+    },
+    {
+      "scene_id": "s04",
+      "narration_text": "Soon, Pip faced a challenge. She wanted to climb a tall sunflower to see the whole garden. It looked very high! She remembered how healthy foods had helped her grow stronger.",
+      "mood": "Determined and brave",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "Small caterpillar climbing a giant sunflower in a magical garden. Storybook oil painting with rich warm colors, soft edges, and an encouraging fairy tale atmosphere.",
+      "flux_seed": 635586112,
+      "sequence": 4,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s04\\c1_seed635586112.png",
+            "seed": 635586112
+          },
+          {
+            "path": "pipeline\\scenes\\s04\\c2_seed635586113.png",
+            "seed": 635586113
+          },
+          {
+            "path": "pipeline\\scenes\\s04\\c3_seed635586114.png",
+            "seed": 635586114
+          }
+        ]
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635586112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
+      }
+    },
+    {
+      "scene_id": "s05",
+      "narration_text": "After her adventure, Pip felt sleepy. She wrapped herself in a snug chrysalis to rest. Inside, something magical was happening.",
+      "mood": "Peaceful and hopeful",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "A peaceful chrysalis hanging from a leaf beneath a sunflower. Storybook oil painting, soft warm lighting, fairy tale illustration with gentle details.",
+      "flux_seed": 635587112,
+      "sequence": 5,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s05\\c1_seed635587112.png",
+            "seed": 635587112
+          },
+          {
+            "path": "pipeline\\scenes\\s05\\c2_seed635587113.png",
+            "seed": 635587113
+          },
+          {
+            "path": "pipeline\\scenes\\s05\\c3_seed635587114.png",
+            "seed": 635587114
+          }
+        ]
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635587112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
+      }
+    },
+    {
+      "scene_id": "s06",
+      "narration_text": "At last, Pip emerged as a beautiful butterfly. She fluttered through the blooming garden, grateful for the healthy choices that helped her grow. She discovered that caring for ourselves helps us shine in our own special way.",
+      "mood": "Joyful and proud",
+      "camera_framing": "medium shot",
+      "characters_present": [
+        "c1"
+      ],
+      "flux_prompt": "A magnificent butterfly soaring through a blooming fairy tale garden. Storybook oil painting, rich warm colors, soft edges, magical illustrated aesthetic, joyful and heartwarming.",
+      "flux_seed": 635588112,
+      "sequence": 6,
+      "outputs": {
+        "image_candidates": [
+          {
+            "path": "pipeline\\scenes\\s06\\c1_seed635588112.png",
+            "seed": 635588112
+          },
+          {
+            "path": "pipeline\\scenes\\s06\\c2_seed635588113.png",
+            "seed": 635588113
+          },
+          {
+            "path": "pipeline\\scenes\\s06\\c3_seed635588114.png",
+            "seed": 635588114
+          }
+        ]
+      },
+      "review": {
+        "json_approved": true,
+        "image_approved": true,
+        "image_selected": "c1_seed635588112.png",
+        "clip_approved": false,
+        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
+      }
+    }
+  ]
+}
