@@ -39,15 +39,14 @@
             "seed": 635583114
           }
         ],
-        "video_clip": "pipeline\\clips\\s01\\s01_clip.mp4",
-        "video_clips": []
+        "video_clip": "pipeline\\clips\\s01\\s01_clip.mp4"
       },
       "review": {
         "json_approved": true,
         "image_approved": true,
         "image_selected": "c1_seed635583112.png",
         "clip_approved": false,
-        "notes": "wan-runner error on c1_seed635583112.png: Timed out after 45min"
+        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
       },
       "target_clip_duration_sec": 3.4
     },
@@ -157,7 +156,7 @@
         "image_approved": true,
         "image_selected": "c1_seed635586112.png",
         "clip_approved": false,
-        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
+        "notes": "wan-runner error: Timed out after 45min"
       }
     },
     {
@@ -192,7 +191,7 @@
         "image_approved": true,
         "image_selected": "c1_seed635587112.png",
         "clip_approved": false,
-        "notes": "wan-runner error: Cannot read properties of undefined (reading 'queue_position')"
+        "notes": "wan-runner error: Timed out after 45min"
       }
     },
     {
